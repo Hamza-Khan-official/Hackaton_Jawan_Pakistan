@@ -1,0 +1,107 @@
+
+/* @media (max-width: 768px) {
+    #main_div_layout_one {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        justify-content: center;
+    }
+
+}
+ */
+
+@media (max-width: 768px) {
+    .navbar{
+        height: auto;
+    }
+    .sub_navbar_responsive{
+    }
+    #main_div_layout_one {
+        display: grid !important; 
+        /* grid-template-columns: 3fr; */
+        width: 100%;  
+        gap: 20px;                  
+        justify-items: center;     
+    }
+    #sub_one_layout_one{
+        width: 100%;
+    }
+    #main_div_layout_one p {
+        width: 100% !important;
+    }
+    #sub_two_layout_one{
+        width: 100%;
+    }
+    #sub_two_layout_one_image{
+        margin: auto;
+        height: 300px;
+        width: 100%;
+    }
+    #sub_three_layout_one{
+        position: relative;
+        bottom: 20px;
+        width: 100%;
+    }
+    #main_div_layout_one img {
+        max-width: 100%;
+        height: auto;
+    }
+    .images_1{
+        height: 300px;
+        width: auto;
+        /* margin: auto; */
+    }
+    .images_2{
+        margin: auto;
+
+    }
+    #main_div_layout_four{
+        margin: auto;
+    }
+    #main_footer{
+        height: auto !important;
+        width: 100%;
+    }
+    #main_footer_two{
+        display: grid !important;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: auto; */
+        row-gap: 10px;
+        margin-left: 2%;
+    }
+    #sub_footer{
+        margin-left: -120px;
+        margin-bottom: -15%;
+    }
+    .sub_footer_two_div{
+        margin-bottom: -20%;
+    }
+    .sub_footer_third_div{
+        margin-bottom: -20%;
+        
+    }
+}
+
+
+.navbar {
+    background-color: transparent !important;
+    position: absolute;
+    width: 100%;
+    z-index: 10; 
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+.hover_aaply:hover{
+    background-color: rgb(34, 33, 33) !important;
+    color: white !important;
+}
+.hover_navbar:hover{
+    color: brown;
+}
+
+/* .collapse{
+    display: inline-block   !important;
+} */
